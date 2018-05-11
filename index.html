@@ -6,80 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>My Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-<!--     <link rel="stylesheet" type="text/css" href="responsive.css"> -->
+    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 	<div class="header__container">
 		<div class="header">
 			<div class="header__photo">
-				<img class="header__logo" src="images/vehicle_icon.jpeg" alt="vehicle_icon">
+				<img class="header__logo" src="images/vehicle_icon.jpeg" alt="vehicle_logo">
 			</div>
+			<ul class="header__center">
+				<li><h1>Dreams come true</h1></li>
+				<li><h2>You can decide the future</h2></li>				
+				<li><h2>That tomorrow will be better</h2></li>
+			</ul>		
 			<div class="header__links">
 				<div class="header__title">Alex Oh</div>
-				<div class="header__description">OBD engineer</div>
-				<div class="header__description">Product engineer</div>	
+				<div class="header__description">OBD Engineer</div>
+				<div class="header__description">Product Engineer</div>	
 				<a href="https://fleetup.com/" target="_blank">
-					<div class="header__description">@ FleetUp</div>
+					<div class="header__description">@FleetUp</div>
 				</a>			
 			</div>
 		</div>
 	</div>
 
 	<main>
-		<div class="main__container">
-			<div class="main">
+		<header class="main__container">
 				<div class="main__photo">
-					<img class="main__image" src="images/vehicle.jpeg" alt="vehicle">
+					<img class="main__image" src="images/vehicle01.jpeg" alt="vehicle_image" width="500" height="200">
 				</div>
-			</div>
-		</div>
+		</header>
+		<section>
+			<header class="article__container">
+				<div class="article__title">
+					<h3 class="article__featured">Featured Work</h3>
+				</div>
+			</header>
+			<section class="article__work">
+				<article class="article__col">
+					<a href="https://codepen.io/AlexOh/pen/XVOdaZ" target="_blank">
+						<img src="images/animal_trading_card1.png" alt="1st project" class="img__thumbnail" width="500"></a>
+						<h4 class="article__desc one" >First project was to make "Animal Trading Card" with HTML and CSS.</h4>
+				</article>
+				<article class="article__col">
+					<a href="https://codepen.io/AlexOh/pen/paxyRo" target="_blank">
+						<img src="images/pixel_art_maker.png" alt="2nd project" class="img__thumbnail" width="500"></a>
+						<h4 class="article__desc two">Second project was to make "Pixel Art Maker" with HTML, CSS and JavaScript.</h4>
+				</article>
+				<article class="article__col">
+					<a href="http://www.nimblekitty.com" target="_blank">
+						<img src="images/images.jpeg" alt="3rd project" class="img__thumbnail" width="500"></a>
+						<h4 class="article__desc three">Third project is ongoing and will be awesome.</h4>
+				</article>
+			</section>
+
+		</section>
 	</main>
 
-	<content>
-		<div class="content__container">
-			<div class="content__title">
-				<div class="content__featured">Featured Work</div>
-			</div>
-			<div class="content__work">
-				<div class="content__col">
-					<a href="https://codepen.io/AlexOh/pen/paxyRo" target="_blank">
-						<img src="images/animal_trading_card1.png" alt="1st" class="img__thumbnail">
-					</a>
-						<p class="content__desc one" >First project was to make "Animal Trading Card" with HTML and CSS.</p>
-				</div>
-				<div class="content__col">
-					<a href="https://codepen.io/AlexOh/pen/XVOdaZ" target="_blank">
-						<img src="images/pixel_art_maker.png" alt="2nd" class="img__thumbnail">
-					</a>
-						<p class="content__desc two">Second project was to make "Pixel Art Maker" with HTML, CSS and JavaScript.</p>
-				</div>
-				<div class="content__col">
-					<a href="www.nimblekitty.com" target="_blank">
-						<img src="images/images.jpeg" alt="3rd" class="img__thumbnail">
-					</a>
-					<p class="content__desc three">Third project will be awesome.</p>
-				</div>
-			</div>
-		</div>
-	</content>
 	<footer>
 		<div class="footer__container">
-			<div class="footer">
+			<div class="footer__text">Stay connected</div>
+			<div class="footer__logo">
 				<a href="https://twitter.com/HyunseokOh" target="_blank">
-					<img src="images/twitter_icon.png" alt="twitter link" class="icon__thumbnail">
-				</a>
-			</div>
-			<div>
+					<img src="images/twitter_icon.png" alt="twitter link" class="icon__thumbnail"></a>
 				<a href="https://www.linkedin.com/in/hyunsuk-o-920b83a5/" target="_blank">
-					<img src="images/linkedin_icon.png" alt="twitter link" class="icon__thumbnail">
-				</a>
-			</div>
-			<div>
+					<img src="images/linkedin_icon.png" alt="twitter link" class="icon__thumbnail"></a>
 				<a href="https://fleetup.com/" target="_blank">
-					<img src="images/icon_fleetup.png" alt="Work link" class="icon__thumbnail">
-				</a>
+					<img src="images/icon_fleetup.png" alt="Work link" class="icon__thumbnail"></a>
 			</div>
+		</div>	
+		<div class="footer2__container">
+			<h5>Copyright © 2018</h5>
 		</div>
 	</footer>
 </body>
